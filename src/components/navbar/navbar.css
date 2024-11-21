@@ -1,0 +1,47 @@
+.Nav_Container {
+  width: 12.5rem;
+  height: 3.125rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  left: -3.5rem;
+}
+
+.home_btn,
+.fav_btn,
+.cart_btn {
+  width: 1.5625rem;
+  height: 1.5625rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.home_btn:hover,
+.fav_btn:hover,
+.cart_btn:hover {
+  transform: scale(1.4);
+  opacity: 0.8;
+}
+
+.num_product_cart{
+  position: absolute;
+  top: -8px;
+  left: 140px;
+  height: 15px;
+  width: 15px;
+  border: 1px solid grey;
+  border-radius: 50%;
+  font-size: 10px;
+}
+
+.num_product_fav{
+  position: absolute;
+  top: -8px;
+  left: 85px;
+  height: 15px;
+  width: 15px;
+  border: 1px solid grey;
+  border-radius: 50%;
+  font-size: 10px;
+}

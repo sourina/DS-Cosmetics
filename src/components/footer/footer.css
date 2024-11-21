@@ -1,0 +1,39 @@
+.footer_container {
+  width: 75vw;
+  height: 20.31rem;
+  background-color: rgb(70, 67, 67);
+  color: whitesmoke;
+}
+
+.footer_opt_container {
+  padding-top: 0.94rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer_heading {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 0.94rem;
+  margin: 0.5rem;
+}
+
+.follow_img {
+  width: 18.75rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  left: 35.63rem;
+}
+
+.follow img {
+  height: 1.88rem;
+  width: 1.88rem;
+}

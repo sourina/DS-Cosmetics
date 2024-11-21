@@ -1,0 +1,43 @@
+.search_form {
+  position: relative;
+  left: -2rem;
+  height: 1.25rem;
+}
+
+.seach_input {
+  height: 2.1875rem;
+  width: 36rem;
+  border: none;
+  border-radius: 0.9375rem;
+}
+
+.search_btn {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+  left: -1.875rem;
+  top: 0.3125rem;
+  cursor: pointer;
+}
+.suggestions_list{
+  width: 32rem;
+  border: 1px solid black;
+  background-color: white;
+  position: absolute;
+  top: 230px;
+}
+.suggestions_list p{
+  border-top: 1px solid rgba(128, 128, 128, 0.418);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.418);
+  margin: 0;
+  cursor: pointer;
+}
+.error_message{
+  position: relative;
+  top: 25px;
+  left: 100px;
+  border: 1px solid black;
+  height: 40px;
+  width: 300px;
+  background-color: white;
+}
