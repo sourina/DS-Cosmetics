@@ -24,24 +24,24 @@
   opacity: 0.8;
 }
 
-.num_product_cart{
+.num_product_cart {
   position: absolute;
-  top: -8px;
-  left: 140px;
-  height: 15px;
-  width: 15px;
-  border: 1px solid grey;
+  top: -0.5rem;
+  left: 8.75rem;
+  height: 0.9375rem;
+  width: 0.9375rem;
+  border: 0.0625rem solid grey;
   border-radius: 50%;
-  font-size: 10px;
+  font-size: 0.625rem;
 }
 
-.num_product_fav{
+.num_product_fav {
   position: absolute;
-  top: -8px;
-  left: 85px;
-  height: 15px;
-  width: 15px;
-  border: 1px solid grey;
+  top: -0.5rem;
+  left: 5.3125rem;
+  height: 0.9375rem;
+  width: 0.9375rem;
+  border: 0.0625rem solid grey;
   border-radius: 50%;
-  font-size: 10px;
+  font-size: 0.625rem;
 }

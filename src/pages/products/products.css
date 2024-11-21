@@ -8,13 +8,13 @@
   width: 90vw;
 }
 
-.sortButton{
+.sortButton {
   position: relative;
-  left:625px;
+  left: 39.06rem;
   background-color: white;
   border: 1px solid rgba(128, 128, 128, 0.527);
 }
 
-.sortButton:hover{
+.sortButton:hover {
   border: 1px solid rgba(128, 128, 128, 0.527);
 }

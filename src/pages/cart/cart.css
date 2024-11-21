@@ -21,16 +21,36 @@
   font-family: sans-serif;
   font-size: 2rem;
 }
+.cart_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.25rem; 
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  width: 90vw;  
+}
 
-/* .fav_products_container {
-    margin: 5rem;
-  } */
+.nav {
+  width: 90vw;  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: baseline;
+  height: 12.5rem;  
+}
+
+.empty_msg {
+  font-family: sans-serif;
+  font-size: 2rem; 
+}
+
 .product_cart {
-  height: 150px;
-  width: 1400px;
-  border-top: 1px solid grey;
-  border-bottom: 1px solid grey;
-  padding-left: 20px;
+  height: 9.375rem;  
+  width: 87.5rem;  
+  border-top: 0.0625rem solid grey;  
+  border-bottom: 0.0625rem solid grey;  
+  padding-left: 1.25rem; 
   display: flex;
   flex-direction: row;
   justify-content: left;
@@ -38,93 +58,94 @@
 }
 
 .product_photo-cart {
-  height: 100px;
-  width: 100px;
+  height: 6.25rem;  
+  width: 6.25rem; 
 }
 
 .product_name_cart,
 .product_price_cart {
   font-family: sans-serif;
-  font-size: 15px;
+  font-size: 0.9375rem;  
   font-weight: bold;
-  margin: 0px;
+  margin: 0;
 }
 
 .product_brand_cart {
-  margin: 0px;
+  margin: 0;
 }
 
 .product_details_cart {
-  margin-left: 50px;
+  margin-left: 3.125rem;  
 }
 
 .numberOfProducts {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 150px;
+  width: 9.375rem;  
   position: absolute;
-  left: 895px;
+  left: 55.9375rem;  
 }
 
 .numberOfProducts button {
-  height: 50px;
-  width: 50px;
+  height: 3.125rem;  
+  width: 3.125rem; 
   border-radius: 50%;
   background-color: rgba(128, 128, 128, 0.568);
 }
+
 .total_product_price {
   position: absolute;
-  right:350px;
+  right: 21.875rem;  
   font-family: sans-serif;
-  font-size: 25px;
+  font-size: 1.5625rem; 
   font-weight: bold;
-  margin: 0px;
+  margin: 0;
 }
-.delete{
-  height: 30px;
-  width: 30px;
-  position: absolute;
-  right: 275px;
-  cursor: pointer;
 
+.delete {
+  height: 1.875rem;  
+  width: 1.875rem; 
+  position: absolute;
+  right: 17.1875rem; 
+  cursor: pointer;
 }
 
 .total_container {
   text-align: right;
   position: relative;
-  right: 50px;
-  margin-bottom: 50px;
+  right: 3.125rem;  
+  margin-bottom: 3.125rem;  
 }
 
 .total_container p {
   font-family: sans-serif;
-  font-size: 25px;
+  font-size: 1.5625rem; 
   font-weight: bold;
 }
 
 .total_container button {
   position: relative;
-  left: -550px;
+  left: -34.375rem;  
   background-color: rgba(235, 102, 124, 0.699);
-  width: 200px;
+  width: 12.5rem; 
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 1.25rem;  
 }
 
 .total_container button:hover {
   background-color: rgb(235, 102, 124);
-  border: 1px solid rgb(235, 102, 124);
+  border: 0.0625rem solid rgb(235, 102, 124);
 }
 
 .empty_div {
-  margin-bottom: 5.5rem;
+  margin-bottom: 5.5rem;  
 }
 
 .billing_header {
-  margin: 30px;
+  margin: 1.875rem;  
   font-family: sans-serif;
-  font-size: 25px;
+  font-size: 1.5625rem; 
 }
 
 .checkout_container {
@@ -133,137 +154,360 @@
   background-color: rgb(233, 229, 229);
   opacity: 1;
   position: relative;
-  top: -800px;
-  left: 350px;
-  height: 700px;
-  width: 900px;
-  border-radius: 30px;
+  top: -50rem;  
+  left: 21.875rem;  
+  height: 43.75rem; 
+  width: 56.25rem;  
+  border-radius: 1.875rem; 
 }
-/* rgb(255, 205, 213); */
+
 .form_checkout {
-  margin: 30px;
+  margin: 1.875rem; 
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
 .form_checkout input {
-  width: 350px;
-  height: 30px;
-  margin-bottom: 15px;
-  border-radius: 8px;
-  border: 0.5px solid rgb(180, 180, 180);
+  width: 21.875rem;  
+  height: 1.875rem;  
+  margin-bottom: 0.9375rem;  
+  border-radius: 0.5rem;  
+  border: 0.03125rem solid rgb(180, 180, 180); 
 }
 
 .form_checkout label {
   font-family: sans-serif;
-  font-size: 18px;
+  font-size: 1.125rem;  
 }
 
 .payment_container {
   position: relative;
-  left: 50px;
-  top: 110px;
+  left: 3.125rem;  
+  top: 6.875rem;  
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: stretch;
-  
-  width: 1000px;
+  width: 62.5rem; 
 }
 
 .payment_header {
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 1.25rem;  
 }
+
 .payment_container button,
 .shipping_container button {
-  margin: 10px;
+  margin: 0.625rem;  
 }
 
 .payment_container button:focus {
   background-color: rgb(235, 102, 124, 0.699);
-  border: 0.5px solid rgb(235, 102, 124, 0.699);
+  border: 0.03125rem solid rgb(235, 102, 124, 0.699);
 }
 
 .shipping_container {
   position: relative;
-  left: 10px;
-  top: 110px;
+  left: 0.625rem;  
+  top: 6.875rem; 
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: stretch;
 }
 
 .shipping_header {
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 1.25rem; 
 }
 
 .shipping_form {
-  width: 200px;
+  width: 12.5rem; 
   justify-content: center;
 }
 
 .shipping_form input {
-  margin-bottom: 15px;
-  margin-top: 20px;
+  margin-bottom: 0.9375rem;  
+  margin-top: 1.25rem; 
 }
 
 .close_btn {
   position: relative;
-  left: 820px;
-  top: 35px;
-  height: 30px;
-  width: 30px;
+  left: 51.25rem;  
+  top: 2.1875rem;  
+  height: 1.875rem;  
+  width: 1.875rem; 
   cursor: pointer;
 }
 
-.confirm button{
+.confirm button {
   position: relative;
-  top: 600px;
-  left: -480px;
-  height: 50px;
-  width: 300px;
+  top: 37.5rem;  
+  left: -30rem;  
+  height: 3.125rem;  
+  width: 18.75rem;  
   background-color: rgb(235, 102, 124, 0.699);
   font-family: sans-serif;
-  font-size: 18px;
+  font-size: 1.125rem;  
 }
-.confirmation_container{
+
+.confirmation_container {
   display: flex;
   flex-direction: column;
   background-color: rgb(233, 229, 229);
   opacity: 1;
   position: relative;
-  top: -1500px;
-  left: 350px;
-  height: 700px;
-  width: 900px;
-  border-radius: 30px;
+  top: -93.75rem;  
+  left: 21.875rem;  
+  height: 43.75rem;  
+  width: 56.25rem;  
+  border-radius: 1.875rem; 
 }
 
-
-.confirm_header{
+.confirm_header {
   font-family: sans-serif;
-  font-size: 25px;
+  font-size: 1.5625rem;  
   font-weight: bold;
-text-decoration: underline;
-margin-bottom: 30px;
-}
-
-.confirmation_container .confirm_details{
-  font-family: sans-serif;
-  font-size: 20px;
- 
+  text-decoration: underline;
+  margin-bottom: 1.875rem;  
 }
 
 
-.confirmation_msg{
-  font-family: sans-serif;
-  font-size: 40px;
-  font-weight: bold;
-  margin-bottom: 50px;
-  margin-top: 30px;
-}
-
+  .product_cart {
+    height: 9.375rem;
+    width: 87.5rem;
+    border-top: 0.0625rem solid grey;
+    border-bottom: 0.0625rem solid grey;
+    padding-left: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+  }
+  
+  .product_photo-cart {
+    height: 6.25rem;
+    width: 6.25rem;
+  }
+  
+  .product_name_cart,
+  .product_price_cart {
+    font-family: sans-serif;
+    font-size: 0.9375rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .product_brand_cart {
+    margin: 0;
+  }
+  
+  .product_details_cart {
+    margin-left: 3.125rem;
+  }
+  
+  .numberOfProducts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 9.375rem;
+    position: absolute;
+    left: 55.9375rem;
+  }
+  
+  .numberOfProducts button {
+    height: 3.125rem;
+    width: 3.125rem;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.568);
+  }
+  
+  .total_product_price {
+    position: absolute;
+    right: 21.875rem;
+    font-family: sans-serif;
+    font-size: 1.5625rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .delete {
+    height: 1.875rem;
+    width: 1.875rem;
+    position: absolute;
+    right: 17.1875rem;
+    cursor: pointer;
+  }
+  
+  .total_container {
+    text-align: right;
+    position: relative;
+    right: 3.125rem;
+    margin-bottom: 3.125rem;
+  }
+  
+  .total_container p {
+    font-family: sans-serif;
+    font-size: 1.5625rem;
+    font-weight: bold;
+  }
+  
+  .total_container button {
+    position: relative;
+    left: -34.375rem;
+    background-color: rgba(235, 102, 124, 0.699);
+    width: 12.5rem;
+    font-family: sans-serif;
+    font-size: 1.25rem;
+  }
+  
+  .total_container button:hover {
+    background-color: rgb(235, 102, 124);
+    border: 0.0625rem solid rgb(235, 102, 124);
+  }
+  
+  .empty_div {
+    margin-bottom: 34.375rem;
+  }
+  
+  .billing_header {
+    margin: 1.875rem;
+    font-family: sans-serif;
+    font-size: 1.5625rem;
+  }
+  
+  .checkout_container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(233, 229, 229);
+    opacity: 1;
+    position: relative;
+    top: -50rem;
+    left: 21.875rem;
+    height: 43.75rem;
+    width: 56.25rem;
+    border-radius: 1.875rem;
+  }
+  
+  .form_checkout {
+    margin: 1.875rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .form_checkout input {
+    width: 21.875rem;
+    height: 1.875rem;
+    margin-bottom: 0.9375rem;
+    border-radius: 0.5rem;
+    border: 0.03125rem solid rgb(180, 180, 180);
+  }
+  
+  .form_checkout label {
+    font-family: sans-serif;
+    font-size: 1.125rem;
+  }
+  
+  .payment_container {
+    position: relative;
+    left: 3.125rem;
+    top: 6.875rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 62.5rem;
+  }
+  
+  .payment_header {
+    font-family: sans-serif;
+    font-size: 1.25rem;
+  }
+  
+  .payment_container button,
+  .shipping_container button {
+    margin: 0.625rem;
+  }
+  
+  .payment_container button:focus {
+    background-color: rgb(235, 102, 124, 0.699);
+    border: 0.03125rem solid rgb(235, 102, 124, 0.699);
+  }
+  
+  .shipping_container {
+    position: relative;
+    left: 0.625rem;
+    top: 6.875rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .shipping_header {
+    font-family: sans-serif;
+    font-size: 1.25rem;
+  }
+  
+  .shipping_form {
+    width: 12.5rem;
+    justify-content: center;
+  }
+  
+  .shipping_form input {
+    margin-bottom: 0.9375rem;
+    margin-top: 1.25rem;
+  }
+  
+  .close_btn {
+    position: relative;
+    left: 51.25rem;
+    top: 2.1875rem;
+    height: 1.875rem;
+    width: 1.875rem;
+    cursor: pointer;
+  }
+  
+  .confirm button {
+    position: relative;
+    top: 37.5rem;
+    left: -30rem;
+    height: 3.125rem;
+    width: 18.75rem;
+    background-color: rgb(235, 102, 124, 0.699);
+    font-family: sans-serif;
+    font-size: 1.125rem;
+  }
+  
+  .confirmation_container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(233, 229, 229);
+    opacity: 1;
+    position: relative;
+    top: -93.75rem;
+    left: 21.875rem;
+    height: 43.75rem;
+    width: 56.25rem;
+    border-radius: 1.875rem;
+  }
+  
+  .confirm_header {
+    font-family: sans-serif;
+    font-size: 1.5625rem;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 1.875rem;
+  }
+  
+  .confirmation_container .confirm_details {
+    font-family: sans-serif;
+    font-size: 1.25rem;
+  }
+  
+  .confirmation_msg {
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 3.125rem;
+    margin-top: 1.875rem;
+  }
+  

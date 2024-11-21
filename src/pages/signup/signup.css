@@ -1,61 +1,62 @@
-.signup_container{
-    padding: 1.25rem;
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    width: 90vw;
+.signup_container {
+  padding: 1.25rem;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  width: 90vw;
 }
 
-.signup_form{
-    position: relative;
-    left:420px;
-    top: -250px;
-display: flex;
-flex-direction: column;
-background-color: white;
-width: 50vw;
-height: 625px;
-padding-top: 80px;
-border-radius: 50px;
+.signup_form {
+  position: relative;
+  left: 26.25rem;
+  top: -15.625rem;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 50vw;
+  height: 39.0625rem;
+  padding-top: 5rem;
+  border-radius: 3.125rem;
 }
 
-.signup_form input{
-    width: 500px;
-    height: 50px;
-    margin: 20px;
-    position: relative;
-    left: 220px;
-    border:1px solid rgba(128, 128, 128, 0.527);
-    border-radius: 10px;
+.signup_form input {
+  width: 31.25rem;
+  height: 3.125rem;
+  margin: 1.25rem;
+  position: relative;
+  left: 13.75rem;
+  border: 0.0625rem solid rgba(128, 128, 128, 0.527);
+  border-radius: 0.625rem;
 }
 
-.signup_form label{
-    position: relative;
-    left: 0px;
-    font-family: sans-serif;
-    font-size: 20px;
+.signup_form label {
+  position: relative;
+  left: 0;
+  font-family: sans-serif;
+  font-size: 1.25rem;
 }
 
-.signup_form button{
-    position: relative;
-    left:420px;
-    width: 150px;
-    background-color: rgba(128, 128, 128, 0.404);
+.signup_form button {
+  position: relative;
+  left: 26.25rem;
+  width: 9.375rem;
+  background-color: rgba(128, 128, 128, 0.404);
 }
 
-.signup_form button:hover{
-    background-color: grey;
-    border: 1px solid grey;
-    }
-
-.signUp_header{
-    position: relative;
-    top:-300px;
-    left: 50px;
-font-family: sans-serif;
-font-size: 35px;
+.signup_form button:hover {
+  background-color: grey;
+  border: 0.0625rem solid grey;
 }
-.logo_container{
-    position: relative;
-    top: -50px;
-    left: 100px;
+
+.signUp_header {
+  position: relative;
+  top: -18.75rem;
+  left: 3.125rem;
+  font-family: sans-serif;
+  font-size: 2.1875rem;
+}
+
+.logo_container {
+  position: relative;
+  top: -3.125rem;
+  left: 6.25rem;
 }
