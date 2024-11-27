@@ -170,7 +170,10 @@ function Cart({
         ) : (
           <div className="empty_div"></div>
         )}
-        <Footer />
+        <div className="footer_cart">
+          <Footer />
+        </div>
+
         {showCheckout && (
           <div className="checkout_container">
             <img
@@ -179,7 +182,7 @@ function Cart({
               className="close_btn"
               onClick={handleClose}
             />
-            <div>
+            <div className="bill_contaier">
               <p className="billing_header">Billing Details</p>
               <form className="form_checkout">
                 <label>Full Name</label>

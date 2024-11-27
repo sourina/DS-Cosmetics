@@ -60,3 +60,37 @@
   top: -3.125rem;
   left: 6.25rem;
 }
+
+@media (max-width: 768px) {
+  .signup_container {
+    width: 80vw;
+  }
+  .signup_form {
+    width: 100%;
+    position: relative;
+    left: 0rem;
+    top: -0.8rem;
+  }
+
+  .signup_form input {
+    width: 70%;
+    position: relative;
+    left: 2rem;
+  }
+.signup_form button{
+  position: relative;
+  left: 6.5rem;
+}
+  .signUp_header {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    position: relative;
+    top: -2rem;
+    left: -0.4rem;
+  }
+  .logo_container{
+    position: relative;
+    left: 0.8rem;
+    top: 1rem;
+  }
+}

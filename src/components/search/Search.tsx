@@ -69,7 +69,7 @@ function Search({ products }: ProductsProps) {
       <form className="search_form" onSubmit={handleFormSubmit}>
         <input
           type="text"
-          className="seach_input"
+          className="search_input"
           value={searchTerm}
           onChange={handleInputChange}
         ></input>

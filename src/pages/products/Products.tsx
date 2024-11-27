@@ -70,7 +70,7 @@ function Products({
         />
       </div>
       {products.length > 0 ? (
-        <div>
+        <div className="productssPage_allProducts">
           <button onClick={toggleSortOrder} className="sortButton">
             Sort: {sortOrder === "asc" ? "A-Z" : "Z-A"}
           </button>

@@ -10,11 +10,34 @@
 
 .sortButton {
   position: relative;
-  left: 39.06rem;
+  left: 36rem;
   background-color: white;
   border: 1px solid rgba(128, 128, 128, 0.527);
 }
 
 .sortButton:hover {
   border: 1px solid rgba(128, 128, 128, 0.527);
+}
+
+.productssPage_allProducts{
+  position: relative;
+  left: 13rem;
+}
+
+@media (max-width: 767px) {
+  .productsPage_container {
+    width: 80vw;
+    padding: 1rem;
+  }
+
+  .productssPage_allProducts{
+    position: relative;
+    left: 2rem;
+    width: 80vw;
+  }
+
+  .sortButton{
+    position: relative;
+    left: -1rem;
+  }
 }

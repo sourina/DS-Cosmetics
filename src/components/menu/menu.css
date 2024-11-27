@@ -41,3 +41,55 @@
 .menu-content li:hover {
   background-color: #f0f0f0;
 }
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .menu-container {
+    left: 3rem;
+  }
+
+  .menu-icon {
+    width: 2.2rem;
+  }
+
+  .menu-content {
+    width: 5.5rem;
+    right: -0.5rem;
+  }
+}
+
+/* Small screens */
+@media (max-width: 767px) {
+  .menu-container {
+    left: 0.8rem;
+    top: 2.2rem;
+    justify-content: center;
+  }
+
+  .menu-icon {
+    width: 2rem;
+  }
+
+  .menu-content {
+    position: absolute;
+    top: 2.2rem;
+    left: -1.8rem;
+    width: 3rem;
+    padding: 1rem;
+  }
+
+  .menu-content ul {
+    position: relative;
+    left: -0.4rem;
+    padding: 0;
+    text-align: center;
+  }
+
+  /* .menu-content li {
+    padding: 0.75rem 0;
+    border: none;
+  } */
+
+  .menu-content li:hover {
+    background-color: rgba(235, 102, 124, 0.1);
+  }
+}

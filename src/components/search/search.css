@@ -4,7 +4,7 @@
   height: 1.25rem;
 }
 
-.seach_input {
+.search_input {
   height: 2.1875rem;
   width: 36rem;
   border: none;
@@ -40,4 +40,62 @@
   height: 2.5rem;
   width: 18.75rem;
   background-color: white;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .search_input {
+    width: 28rem;
+  }
+
+  .suggestions_list {
+    width: 28rem;
+  }
+
+  .error_message {
+    width: 16rem;
+    left: 4rem;
+  }
+}
+
+/* Small screens (mobile, less than 768px) */
+@media (max-width: 767px) {
+  .search_wrapper {
+    width: 100%;
+    position: relative;
+    top: 5rem;
+    left: -6.4rem;
+  }
+  .search_form {
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .search_input {
+    width: 20rem;
+  }
+
+  .search_btn {
+    position: relative;
+    top: -1.7rem;
+    left: 9rem;
+    height: 1rem;
+    width: 1rem;
+  }
+
+  .suggestions_list {
+    width: 100%;
+    top: 2.5rem;
+    left: -2rem;
+    max-height: 10rem;
+  }
+
+  .error_message {
+    width: 90%;
+    left: -0.8rem;
+    top: 1rem;
+  }
+
+  .error_message p{
+    font-size: small;
+  }
 }

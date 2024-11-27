@@ -59,6 +59,8 @@
 .allProducts_container {
   width: 100%;
   max-width: 75rem;
+  position: relative;
+  left: 2rem;
 }
 
 .allProducts_container h4 {
@@ -72,9 +74,21 @@
 
 .more_opt_btn {
   position: relative;
-  right: -34.375rem;
+  right: -34rem;
   top: -3.4375rem;
   cursor: pointer;
+}
+
+.more_opt_btn_sell {
+  position: relative;
+  right: -34rem;
+  top: -3.4375rem;
+  cursor: pointer;
+}
+
+.new_arrivals {
+  padding-top: 4.37rem;
+  padding-bottom: 3.12rem;
 }
 
 .best_sellers {
@@ -88,4 +102,81 @@
   font-size: 1.25rem;
   color: #555;
   padding: 3.125rem 0;
+}
+
+@media (max-width: 768px) {
+  .home_container {
+    width: 80vw;
+    padding: 1rem;
+  }
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  .header_img {
+    width: 75vw;
+  }
+  .header_desc {
+    top: -6.7rem;
+    left: -6rem;
+  }
+
+  .header {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 0.5rem;
+    margin-bottom: 0;
+  }
+
+  .sub_header {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.45rem;
+    margin-top: 0.4rem;
+    margin-left: 1.4rem;
+  }
+
+  .header_desc .shop_btn {
+    height: 1.5rem;
+    width: 3rem;
+    font-size: 0.5rem;
+  }
+
+  .header_container {
+    height: 10rem;
+  }
+  .allProducts_container {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .more_opt_btn {
+    right: -7rem;
+    top: -2rem;
+  }
+
+  .new_arrivals {
+    width: 90%;
+    position: relative;
+    left: -1rem;
+  }
+
+  .new_arrivals h4 {
+    font-size: large;
+  }
+
+  .more_opt_btn {
+    position: relative;
+    top: -2.8rem;
+  }
+  .best_sellers h4 {
+    font-size: large;
+  }
+  .more_opt_btn_sell {
+    right: -5.5rem;
+  }
+  .best_sellers {
+    width: 90%;
+    position: relative;
+    left: -1rem;
+  }
 }

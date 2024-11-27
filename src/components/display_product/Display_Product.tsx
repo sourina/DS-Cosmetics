@@ -33,7 +33,6 @@ function Display_Product({
   const navigate = useNavigate();
   
   const handleProduct = (product: Product) => {
-    console.log("pp",product.id);
     navigate(`/product/${product.id}`);
   };
 

@@ -120,7 +120,7 @@ function Home({
           </div>
           <div className="best_sellers">
             <h4>Best Sellers</h4>
-            <p className="more_opt_btn" onClick={handleSeeMore}>See More</p>
+            <p className="more_opt_btn_sell" onClick={handleSeeMore}>See More</p>
             <Display_Product
               productsToDisplay={BestSellingProductsToDisplay}
               favouriteProducts={favouriteProducts}
